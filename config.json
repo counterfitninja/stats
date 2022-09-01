@@ -1,0 +1,34 @@
+{
+    "configVersion": 1,
+    "database": "data",
+    "server": {
+        "sources": [
+            {
+                "path": "/home/dietpi",
+                "worldName": "world"
+            }
+        ],
+        "customName": false
+    },
+    "client": {
+        "defaultLanguage": "en",
+        "playersPerPage": 100,
+        "playerCacheUUIDPrefix": 2,
+        "showLastOnline": true
+    },
+    "players": {
+        "profileUpdateInterval": 3,
+        "updateInactive": false,
+        "inactiveDays": 7,
+        "minPlaytime": 60,
+        "excludeBanned": true,
+        "excludeOps": false,
+        "excludeUUIDs": []
+    },
+    "crown": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+    },
+    "events": []
+}
